@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-around",
         backgroundColor: "#fff", 
         padding: 10,
-        position: 'absolute',
+        // position: 'absolute',
         bottom: 0,
         left: 0,
         right: 0, },

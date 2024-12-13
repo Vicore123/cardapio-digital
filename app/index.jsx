@@ -14,6 +14,7 @@ export default function Menu() {
 const styles = StyleSheet.create({
   menu: {
     // padding:"10",
-    paddingBottom:"120"
+    // paddingBottom:"65",
+    // alignItems: "center"
   }
 });
