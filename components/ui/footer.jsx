@@ -3,7 +3,7 @@ import { TouchableOpacity, StyleSheet, Text, View, Image } from "react-native";
 import { useRouter } from "expo-router";
 
 export default function Footer() {
-  const router = useRouter(); // Hook para navegação
+  const router = useRouter();
 
   return (
     <View style={styles.footer}>
@@ -39,7 +39,6 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    flexDirection: "column",
     alignItems: "center",
     width: 40,
     height: 45,
